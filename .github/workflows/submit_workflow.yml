@@ -18,4 +18,8 @@ jobs:
           python-version: '3.x'
 
       - name: Run Script
+        env:
+          B12_SIGNING_SECRET: ${{ secrets.B12_SIGNING_SECRET }}
+          B12_EMAIL: ${{ secrets.B12_EMAIL }}
+          B12_RESUME: ${{ secrets.B12_RESUME }}
         run: python submit_script.py
