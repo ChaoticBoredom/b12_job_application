@@ -6,6 +6,7 @@ on:
 jobs:
   submit:
     runs-on: ubuntu-latest
+    environment: application_submit
 
     steps:
       - name: Checkout repo
