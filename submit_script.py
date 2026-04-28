@@ -17,7 +17,7 @@ data = {
     "email": email,
     "resume_link": resume_link,
     "repository_link": "https://github.com/ChaoticBoredom/b12_job_application",
-    "action_run_link": "https://github.com/ChaoticBoredom/b12_job_application"
+    "action_run_link": "https://github.com/ChaoticBoredom/b12_job_application/actions/runs/25028663956"
 }
 
 request_body = json.dumps(data, separators=(",", ":"), sort_keys=True).encode("utf-8")
